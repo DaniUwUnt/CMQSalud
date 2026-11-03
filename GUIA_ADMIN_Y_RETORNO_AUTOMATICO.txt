@@ -1,0 +1,29 @@
+CMQ SALUD · PILOTO ACADÉMICO — NUEVA VERSIÓN
+
+NUEVO: ADMINISTRACIÓN DE CUENTAS
+- No hay correo ni clave de administrador incrustados en la app.
+- La primera cuenta creada tiene rol ADMINISTRADOR.
+- En actualizaciones con cuentas existentes, la PRIMERA cuenta que creaste anteriormente recibe el rol ADMINISTRADOR.
+- En Inicio aparece el botón "Administrar cuentas (piloto)" solo si tu sesión tiene ese rol.
+- Allí puedes consultar/buscar, bloquear, reactivar, cambiar roles y eliminar otras cuentas.
+- Cada modificación exige confirmación y queda reflejada en un historial local.
+- No puedes cambiar o borrar tu cuenta mientras la usas ni dejar el piloto sin administradores.
+
+NUEVO: VOLVER AUTOMÁTICAMENTE DESPUÉS DE GUARDAR
+- Registrar documento válido > guardar > mensaje "Documento guardado correctamente" > espera 1,5 s > vuelve al listado.
+- Editar documento > guardar cambios > mensaje > espera 1,5 s > vuelve al detalle.
+- Si hay errores de validación o escritura, NO navega automáticamente.
+
+ACTUALIZACIÓN DEL PROYECTO
+1. Descarga y descomprime el ZIP en una carpeta NUEVA.
+2. Abre esa carpeta desde Android Studio > File > Open.
+3. Sync Gradle y presiona Ctrl + F9.
+4. Con tu emulador Pixel 6a seleccionado, presiona Run.
+5. NO desinstales ni borres datos de la aplicación previa si quieres conservar documentos y cuentas.
+
+IMPORTANTE
+- Las cuentas/roles siguen siendo de demostración; no implementan protección institucional real.
+- Usa solo datos sintéticos. No uses RUT, cuentas institucionales ni documentos de funcionarios reales.
+- ClaveÚnica permanece DESACTIVADA como propuesta futura.
+- Los documentos siguen siendo comunes para todas las cuentas del mismo emulador.
+- Este código no se ha compilado aquí con Android SDK; confirma BUILD SUCCESSFUL y prueba en Android Studio.

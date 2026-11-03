@@ -1,0 +1,16 @@
+CMQ SALUD · PRUEBAS DE LOGIN Y REGISTRO
+
+1. Abrir la versión nueva sobre la anterior SIN desinstalar.
+2. Debe aparecer la pantalla Iniciar sesión.
+3. Registrar un usuario ficticio. Ejemplo: Persona de prueba / demo@ejemplo.cl / Demo2026!
+4. Comprobar que la app entra a Inicio.
+5. Revisar si permanecen los documentos de prueba anteriores.
+6. Cerrar sesión.
+7. Ingresar con una contraseña equivocada: debe mostrar error.
+8. Ingresar con la contraseña correcta: debe funcionar.
+9. Cerrar y abrir la app sin cerrar sesión: debe recordar el ingreso.
+10. Comprobar que el botón ClaveÚnica aparece desactivado y no pide RUT ni contraseñas.
+
+Nota: las cuentas son LOCALES y solo para una demostración con datos ficticios.
+No existe ClaveÚnica real ni separación de documentos por usuario.
+Si aparece Build FAILED, enviar el primer error de Output, no solo el resumen.
