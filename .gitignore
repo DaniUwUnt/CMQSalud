@@ -25,3 +25,6 @@ app/build
 # Aplicaciones compiladas
 *.apk
 *.aab
+
+# Documentos temporales de versiones anteriores
+LEEME_*
